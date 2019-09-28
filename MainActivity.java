@@ -9,8 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-
-    NavigationView navigationView;
+    
     ImageView view_my_task;
     ImageView freshchat;
     ImageView freshdesk;
@@ -22,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        navigationView = findViewById(R.id.bottom_navigation);
         view_my_task = findViewById(R.id.view_my_task);
         freshchat = findViewById(R.id.freshchat);
         freshdesk = findViewById(R.id.freshdesk);
